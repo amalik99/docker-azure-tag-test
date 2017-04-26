@@ -396,7 +396,7 @@
       "type": "Microsoft.Storage/storageAccounts",
       "name": "[variables('ucpControllerStorageAccountName')]",
       "apiVersion": "[variables('apiVersionStorage')]",
-      "location": "[parameters('location')]",,
+      "location": "[parameters('location')]",
       "tags": {
          "provider": "[toUpper(parameters('DockerTags').provider)]"
        },
